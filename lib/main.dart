@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
     Novel novel = Novels.firstWhere((it) => it.title == title);
     return MaterialPageRoute(
       settings: settings,
-      builder: (context) => Detail(Novel),
+      builder: (context) => Detail(novel),
     );
   }
 }

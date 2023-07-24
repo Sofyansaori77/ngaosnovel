@@ -3,36 +3,30 @@ class Novel {
       writer,
       price,
       image,
-      description =
-          'Merupakan novel novel islami terlaris';
+      description;
   int pages;
   double rating;
 
   Novel(
-      this.title, this.writer, this.price, this.image, this.rating, this.pages);
+      this.title, this.writer, this.price, this.image, this.rating, this.pages, this.description);
 }
 
 final List<Novel> Novels = [
   Novel('ngegasngerem', 'Ngaos Novel', 'Rp 50.000', 'assets/ngegasngerem.jpg',
-      3.5, 123),
+      3.5, 123, "Membaca buku Hidup itu Harus Pintar Ngegas dan Ngerem, yang berisi 11 ceramah Emha Ainun Nadjib atau biasa disapa Cak Nun, sarat akan nasihat-nasihat yang berkenaan dengan kehidupan masa kini                    Petuah-petuah Cak Nun yang berpijak pada ajaran agama Islam, disampaikan dengan bahasa tutur yang lugas dan ringan, sehingga tidak berkesan menggurui dan menghakimi. Nasihat-nasihat ini meliputi berbagai dimensi mulai dari budaya, hukum, politik, kearifan lokal, ekonomi, sosial, ilmu pengetahuan, sampai dengan teknologi.                                                                                                                                                                                  Baca Artikel: Resensi Buku Hidup Itu Harus Pintar Ngegas dan Ngerem : Nasihat Kehidupan dari Cak Nun Selengkapnya https://www.golali.com/resensi-buku-hidup-itu-harus-pintar-ngegas-dan-ngerem-nasihat-kehidupan-dari-cak-nun"),
   Novel('sabdocinta', 'Ngaos Novel', 'Rp 55.000', 'assets/sabdocinta.jpg', 4.5,
-      200),
+      200,"Sabdo Cinta Angon Kasih' menceritakan perjalanan dua makhluk spiritual dari Majapahit dan Pajajaran yang selalu mengikuti Mbok Jamu, perempuan yang dianggap putri raja yang menitis ke raga rakyat biasa.         Buku ini juga bakal menceritakan perjalanan historis ke mata angin mana Jangka Jayabaya dan Uga Wangsit Siliwangi, dua ramalan akbar Jawa dan Sunda. Dalam siaran pers yang diterima,                                                                                                                              'Sabdo Cinta Angon Kasih', Sujiwo Tejo mengatakan mencatat hampir semua peristiwa penting yang terjadi dalam setahun ini di Indonesia.                                                                                                                                                                                                                                                                              Baca artikel detikhot Sujiwo Tejo akan Rilis 'Sabdo Cinta Angon Kasih' November selengkapnya https://hot.detik.com/book/d-4277939/sujiwo-tejo-akan-rilis-sabdo-cinta-angon-kasih-november.Download Apps Detikcom Sekarang https://apps.detik.com/detik/"),
   Novel('lupaendonesa', 'Ngaos Novel', 'Rp 60.000', 'assets/lupaendonesa.jpg',
-      5.0, 200),
-  Novel(
-      'scaled',
-      'Ngaos Novel',
-      'Rp 150.000',
-      'assets/scaled.jpg',
-      3.0,
-      200),
+      5.0, 200, "Buku Karya Sujiwo Tejo yang pertama aku baca. Kesan pertama lumayan salut karena Pengantar Buku ini disampaikan oleh pak Dahlan Iskan yang merupakan Menteri BUMN Indonesia. Dalam buku ini mbah jiwo (panggilan akrab Sujiwo Tejo) menceritakan hal – hal yang malu – malu, memalukan, atau tak memalukan tentang persoaalan negeri ini. Mbah jiwo banyak menyindir berbagai tokoh atau pun perilaku masyarakat yang sudah lupa dengan bangsanya sendiri dan lebih disibukkan dengan persoalan pribadi sendiri atau pun golonganya"),
+  Novel('scaled',      'Ngaos Novel','Rp 150.000','assets/scaled.jpg',
+      3.0,200,"Buku ini mengajak pembaca untuk mengenal dakwah islam yang sarat akan nafas cinta, kasih, dan penuh lemah lembut. Alih-alih disampaikan dengan bahasa yang kaku, buku ini menyampaikan konten dakwah dengan bahasa yang ringan dan mudah dimengerti oleh kaum muda. Dimulai dengan prolog 'Tuhan ada di hatimu', Habib Ja'far mengajak kita untuk melihat hal-hal yang berada di sekitar kita sebagai tanda-tanda kehadiran dan kebesaran-Nya. Bumi ini sejatinya adalah masjid,  dimanapun kita bersujud dan menyebut nama-Nya di situlah Tuhan berada, tidak terbatas hanya pada bangunan yang kita sebut masjid. Konten ini telah tayang di Kompasiana.com dengan judul Review Buk Tuhan Ada di Hatimu"", Klik untuk baca:https://www.kompasiana.com/wahyu72345/5ff752b7d541df0dcf698212/review-buku-tuhan-ada-di-hatimu Kreator: Wahyu ArdiansyahKompasiana adalah platform blog. Konten ini menjadi tanggung jawab bloger dan tidak mewakili pandangan redaksi Kompas.Tulis opini Anda seputar isu terkini di Kompasiana.com"),
   Novel('merayutuhan', 'Ngaos Novel', 'Rp 90.000',
-      'assets/merayutuhan.jpg', 4.8, 234),
+      'assets/merayutuhan.jpg', 4.8, 234,"Allah Maha indah dan menyukai keindahan, maka dekati Dia dengan rayuan yang begitu romantis. Sebab, amal kita bukanlah‘alat tukar’untuk surga, melainkan hanya Rahmat-Nya yang membawa kita ke surga. 	Jika Tuhan Maha Pengasih, masih perlukah kita merayu-Nya? Tentu saja perlu dan hanya itulah cara kita menjemput rahmat-Nya. Bahkan, sebelum kita merayu-Nya dengan romantis,Tuhan telah memberi nikmat yang unlimited. Jangankan untuk membalas nikmat-Nya, untuk menghitungnya pun kita tak akan mampu! 	Maka,'tulis Husein Ja‘far Al-Hadar, kita memerlukan seni merayu Tuhan, agar cinta dan rahmat-Nya senantiasa berdegup di hati kita. 'Dalam buku Seni Merayu Tuhan, Husein menawarkan perspektif seni—dalam arti yang luas—kepada pembaca untuk memahami berbagai fenomena keberagamaan kontemporer, mulai dari kesalehan ritual, sosial, hingga digital.Dengan gaya “dakwah milenialis”, bahasa yang popular, dan jenaka, Husein mengemas buku ini dengan segar dan mudah dicerna oleh berbagai kelompok anak muda, tanpa kehilangan daya nalar dan kritisnya"),
         Novel('crewet', 'Ngaos Novel', 'Rp 90.000',
-      'assets/crewet.jpg', 4.8, 234),
+      'assets/crewet.jpg', 4.8, 234,"Buku ini merupakan kumpulan ceramah Emha Ainun Nadjib di berbagai majelis. Tema-tema ceramah yang dipilih terkait hakikat ajaran Islam yang luwes dan tidak menyulitkan—jauh dari kesan yang ditimbulkan oleh sikap dan perilaku sebagian umat Islam masa kini."),
   Novel('sejarah', 'Ngaos Novel', 'Rp 57.000',
-      'assets/sejarah.jpg', 3.5, 123),
+      'assets/sejarah.jpg', 3.5, 123,"Sejarah mencatat bahwa Islam pernah mencapai masa keemasan berkat kemajuan ilmu pengetahuan dan teknologi. Sampai-sampai, peradaban Islam menjadi kiblat perkembangan ilmu pengetahuan dan teknologi dunia. Dalam kaitan itu, seorang orientalis barat, H.A.R. Gibb dalam bukunya Whither Islam menyatakan, 'Islam is indeed much more than a system of theology, it is a complete civilization'(Islam sesungguhnya lebih dari sebuah agama. Ia adalah suatu peradaban yang sempurna). Namun, sangat memilukan bahwa masyarakat Indonesia yang religius dewasa ini terpuruk dalam himpitan krisis dan terbelakang dalam berbagai aspek kehidupan.Oleh karena itu, perlu kiranya dilakukan rekonstruksi kondisi umat Islam dengan belajar dari sejarah. Dengan menelaah sejarah, dapat diperoleh pelajaran: apa yang membuatnya maju dan apa yang membuatnya mundur; apa yang membuatnya bangkit dan apa yang membuatnya hancur.Buku ini mengulas peradaban Islam sejak pra kenabian sampai sekarang. Di dalamnya dibahas bagaimana pertumbuhan, perkembangan, kemajuan, kemunduran, dan kebangkitan kembali peradaban Islam."),
   Novel('cemburu', 'Ngaos Novel', 'Rp 56.000',
-      'assets/cemburu.jpg', 4.8, 432),
+      'assets/cemburu.jpg', 4.8, 432,"Salah satu bakat paling besar dalam diri manusia memang menjadi binatang: makhluk tingkat ketiga sesudah benda dan tetumbuhan. Binatang plus akal adalah kita. Binatang plus akal plus tataran-tataran lain dari spiritualisme adalah kesempurnaan yang seyogyanya diperjuangkan oleh manusia.	Akan tetapi, binatang nampaknya lebih beruntung dibanding manusia. Dunia dan nilai mereka sudah niscaya dari awal sampai akhir. Sedang dunia manusia, suka menjebak diri dengan kebebasan yang dimilikinya atau yang ia peroleh dari Tuhannya. Manusia merasa bebas untuk memilih, termasuk memilih bunuh diri atau melenyapkan standar-standarnya terhadap nilai kemanusiaan.		Esai-esai yang ditulis oleh Emha Ainun Nadjib dalam buku ini, merefleksikan betapa panjang pertanyaannya atas hidup. Emha tak hanya melihat pola interaksi antara manusia dengan Tuhan yang semakin mengabur, tetapi juga semakin tersingkirnya manusia dari strata-strata sosial yang mereka bentuk sendiri."),
  
 ];

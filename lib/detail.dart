@@ -48,11 +48,11 @@ class Detail extends StatelessWidget {
         text(Novel.title,
             size: 16,
             isBold: true,
-            color: Colors.white70,
-            padding: EdgeInsets.only(top: 16.0)),
+            color: Colors.black,
+            padding: EdgeInsets.only(top: 16.0),),
         text(
           'oleh ${Novel.writer}',
-          color: Colors.white30,
+          color: Colors.black,
           size: 12,
           padding: EdgeInsets.only(top: 8.0, bottom: 16.0),
         ),
@@ -61,7 +61,7 @@ class Detail extends StatelessWidget {
             text(
               Novel.price,
               isBold: true,
-              color: Colors.white70,
+              color: Colors.black,
               padding: EdgeInsets.only(right: 8.0),
             ),
             RatingBar(rating: Novel.rating, color: Colors.white70)
@@ -108,8 +108,10 @@ class Detail extends StatelessWidget {
 
     return Scaffold(
       appBar: appBar,
-      body: Column(
-        children: <Widget>[topContent, bottomContent],
+      body: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[topContent, bottomContent],
+        ),
       ),
     );
   }

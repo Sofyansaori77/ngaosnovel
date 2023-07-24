@@ -27,7 +27,7 @@ class _SideBarState extends State<SideBar> {
                   TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
             ),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: AssetImage('assets/ngajionline2.jpg'),
+              backgroundImage: AssetImage('assets/ngaos.jpg'),
             ),
             decoration: BoxDecoration(
               image: DecorationImage(

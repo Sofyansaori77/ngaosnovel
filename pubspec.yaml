@@ -26,11 +26,11 @@ flutter:
   assets :
     - assets/ngegasngerem.jpg 
     - assets/sabdocinta.jpg
-    - assets/lupaendonesajpg.jpg
+    - assets/lupaendonesa.jpg
     - assets/scaled.jpg
     - assets/merayutuhan.jpg
-   - assets/sejarah.jpg
-   - assets/cemburu.jpg
-   - assets/crewet.jpg
+    - assets/sejarah.jpg
+    - assets/cemburu.jpg
+    - assets/crewet.jpg
     - assets/ngajionline2.jpg
   
