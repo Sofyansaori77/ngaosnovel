@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:katalog/sidebar.dart';
+import 'package:Ngaos/sidebar.dart';
 import 'data.dart';
 import 'detail.dart';
 import 'home.dart';
