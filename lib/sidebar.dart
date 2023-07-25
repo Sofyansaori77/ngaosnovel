@@ -1,4 +1,4 @@
-import 'package:katalog/home.dart';
+import 'package:Ngaos/home.dart';
 import 'package:flutter/material.dart';
 import 'contact.dart';
 
